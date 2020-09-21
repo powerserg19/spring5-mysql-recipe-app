@@ -46,3 +46,4 @@ jobs:
       - run:
           name: Send to CodeCov
           command: bash <(curl -s https://codecov.io/bash)
+          token: 96f2eaf9-96fc-4433-9368-7d1d1c570849
