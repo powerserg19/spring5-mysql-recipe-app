@@ -44,7 +44,7 @@ public class ImageControllerTest {
     public void getImageForm() throws Exception {
         //given
         RecipeCommand command = new RecipeCommand();
-        command.setId(1L);
+        command.setId(1L);;
 
         when(recipeService.findCommandById(anyLong())).thenReturn(command);
 
