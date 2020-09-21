@@ -16,7 +16,8 @@ import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.*;
 
 
-public class ImageServiceImplTest {
+public class
+ImageServiceImplTest {
 
     @Mock
     RecipeRepository recipeRepository;
